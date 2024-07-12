@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <div class="topnav">
+      <a class="active" href="#home">
+          <i class="fa fa-home"></i> Home
+      </a>
+      <a href="#about">
+          <i class="fa fa-user"></i> About
+      </a>
+      <a href="#skills">
+          <i class="fa fa-cog"></i> Skills
+      </a>
+      <a href="#projects">
+          <i class="fa fa-folder-open"></i> Projects
+      </a>
+      <a href="#contact">
+          <i class="fa fa-envelope"></i> Contact
+      </a>
+  </div>
+
+  <div class="full-page-image">
+    <img src="program_code-wallpaper.jpg" alt="Background">
+    <div class="profilepic">
+      <img src="2.png" alt="My Profile Picture">
+    </div>
+  </div>
+
+  <p class="home-title">I am <span class="title">Yamini Nagireddy</span></p>
+
+  <!-- The social media icon bar -->
+  <div class="icon-bar">
+    <a href="#" class="github"><i class="fa fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/uthkarsh-reddy-junuthula-9bbb2270/" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+    <a id="emailLink" href="mailto:junuthulauthkarsh@gmail.com" class="email"><i class="fa fa-envelope"></i></a> 
+  </div>
+
+  <button id="resumeButton" class="icon fa fa-address-card"> View Resume</button>
+
+  <div id="resumeModal" class="modal">
+    <div class="modal-content">
+      <span class="close-button" onclick="closeModal()">&times;</span>
+      <section class="content">
+        <div class="content">
+          <div class="top-part"> 
+            <h2>UTHKARSH REDDY JUNUTHULA</h2>
+            <pre>+1 (940)-843-3243 | <a href="mailto:junuthulauthkarsh@gmail.com">junuthulauthkarsh@gmail.com</a>
+            Denton, Texas (Ready to Relocate)</pre>
+          </div>
+          <hr class="divider">
+          <h2><ins>CAREER SUMMARY</ins></h2>
+          <p><b>Data Engineer | Data Analyst | Business Analyst | Business Intelligence Analyst | Subject Matter Expert | Project & Program Management Specialist</b></p>
+          <ul>
+              <li>A seasoned Data Engineer with over 5 years of experience, specializing in data pipeline optimization, process automation, and analytical dashboard development across tech giants like Uber and Amazon.</li>
+              <li>My background in programming, data analysis, and cloud technologies, paired with a master's degree in data engineering, equips me to bring valuable insights and efficiency to data-driven decisions, ensuring that my next role will benefit from my proven track record of delivering innovative solutions and measurable results.</li>
+              <li>Known for leading high-impact projects, I have consistently delivered solutions that streamline operations, enhance data quality, and drive business insights, achieving cost savings and operational efficiency.</li>
+          </ul>
+          <hr class="divider">
+          <h2><ins>AREAS OF EXPERTISE</ins></h2>
+          <ul>
+              <li><b>Programming Languages:</b> Advanced Python, JavaScript, Spark SQL, Python Dash framework, R</li>
+              <li><b>Databases:</b> Hive, Amazon Redshift, Oracle DB, MySQL, MS SQL, MongoDB, HBase</li>
+              <li><b>Big Data Tools:</b> PySpark, Apache Kafka, Apache Airflow, Hadoop (HDFS, MapReduce, Pig, Sqoop, Kafka)</li>
+              <li><b>Cloud Platforms:</b> AWS (S3, QuickSight), Google Cloud Platform (GCP), Salesforce</li>
+              <li><b>Containerization:</b> Docker/Kubernetes</li>
+              <li><b>Project Management Tools:</b> JIRA, Google Workspace</li>
+              <li><b>Version Control Systems:</b> GIT</li>
+              <li><b>Operating Systems:</b> Linux, Windows, Mac</li>
+              <li><b>Visualization Tools:</b> Tableau, Microsoft PowerBI, D3.js</li>
+              <li><b>Machine Learning:</b> Scikit-learn, Beautiful Soup, TensorFlow, Keras, NLTK, PyTorch, OpenCV, dplyr, ggplot2, Caret, gmodels, Rpy2</li>
+              <li><b>Additional Skills:</b> ETL pipeline design, real-time data processing, Stakeholder & Team Management, Project & Program Management</li>
+          </ul>
+          <hr class="divider">
+          <h2><ins>WORK EXPERIENCE</ins></h2>
+          
+          <div style="display: flex; justify-content: space-between;">
+            <h3>Uber</h3>
+            <h3>03/2022 - 07/2022</h3>
+          </div>
+          <h4><b>Data Engineer II - Content (US&C)</b></h4>
+          <ul>
+              <li><b>JIRA Request Process Optimization:</b> Led a four-person team to engineer and streamline the JIRA request process using advanced SQL, Python, and Tableau. This initiative reduced response times by 15%, from 4 hours to 3.4 hours, improving team efficiency and responsiveness.</li>
+              <li><b>Training and Workflow Optimization:</b> Identified inefficiencies in training and workflow processes, reducing new recruit training time by 6 hours. This optimization enhanced onboarding efficiency and accelerated new team members' contributions.</li>
+              <li><b>Global Content Audit and Standardization:</b> Directed an audit of the top 25% of most accessed global content for the 'Earner LOB,' providing actionable insights to ensure uniformity and consistency in Standard Operating Procedures (SOPs), resulting in a 10% decrease in average handling time of Earner contacts.</li>
+              <li><b>Real-time Quality Action Dashboard:</b> Developed a Quality Action Dashboard using Python's Dash framework, integrated with Apache Kafka for real-time data monitoring. This dashboard provided insights that contributed to a 5% improvement in quality scores after operational adjustments based on the dashboard analytics.</li>
+              <li><b>In-app Support FAQ Content Development:</b> Created and implemented in-app support FAQ content to address earner issues. This initiative, based on insights generated from analyzing earner contacts data, reduced earner support contact rate by ~12%, yielding savings of around $200K based on the average cost per contact.</li>
+              <li><b>Python (PySpark) UDF Development:</b> Developed optimized PySpark User-Defined Functions (UDFs) for row/column manipulations, merges, aggregations, and data cleaning, resulting in a 30% increase in data processing efficiency.</li>
+          </ul>
+          
+          <div style="display: flex; justify-content: space-between;">
+          <h3>Amazon</h3>
+          <h3>06/2020 - 10/2021</h3>
+          </div>
+          <h4><b>Data Engineer (MBO)</b></h4>
+          <p>POC for setting up data repositories and related components for a new process and was a key contributor to an independent team ATBS (Automate the Boring Stuff), where we majorly focused on data pipeline automation and analytics platform enhancement for various teams across the org.</p>
+          <ul>
+              <li><b>Automated Work Allocation System:</b> Developed an automated work allocation system by analyzing volume trends and capacity planning. Utilized Apache Airflow for orchestration and Amazon Redshift for storage. This led to a significant reduction in SLA misses and improved operational efficiency.</li>
+              <li><b>KPI Tracking and Reporting Dashboards:</b> Automated KPI tracking and reporting dashboards using Amazon QuickSight and Redshift. This streamlined the data aggregation process, cutting down the report generation time by 30% and improving data visibility for leadership.</li>
+              <li><b>Incremental ETL Processes:</b> Implemented incremental ETL processes using PySpark for optimized data manipulation, reducing load times into Redshift by 30%. This initiative streamlined data manipulation processes and amplified QuickSight dashboards performance by 40% by leveraging PySpark's advanced data operations, Spark SQL for querying, AWS S3 for storage, and Hive for data preparation.</li>
+              <li><b>Counterfeit Elimination Program Optimization:</b> Optimized the counterfeit elimination program by conducting root cause analysis and resolving inefficiencies using Spark SQL. This decreased customer onboarding time by 64%, from 12 to 4 days. Also developed QuickSight dashboards for real-time tracking of enrollment, production, and shipping metrics, as well as internal analytics on data inflow and resource utilization.</li>
+              <li><b>Process Improvement through Data Analysis:</b> Led process improvements by analyzing data with Python and SQL, automating repetitive data processing tasks. This saved over 200 hours of manual work per quarter, allowing the team to focus on more strategic projects.</li>
+          </ul>
+          
+          <p><b>Projects as part of ATBS initiative:</b></p>
+          <ul>
+              <li><b>Data Model and Workflow Development:</b> Led the development of comprehensive data models and automated workflows using Apache Airflow, Kafka for real-time data streaming, and Spark for large-scale processing. These initiatives significantly enhanced decision-making processes within MBO, saving ~8.5 FTE.</li>
+              <li><b>Interactive Data Dashboards on Docker:</b> Designed and deployed interactive data dashboards on Docker, facilitating real-time data visualization. Improved decision-making by providing daily reports generated from production data and conducting experimental analysis using development data, increasing report accuracy by 40%.</li>
+              <li><b>Data Preparation and Migration:</b> Utilized Spark SQL for data preparation, resulting in a 25% reduction in data retrieval time. Successfully migrated and stored over 5TB of preprocessed data in AWS S3, handling data from Hive tables into Data Frames.</li>
+          </ul>
+
+          <div style="display: flex; justify-content: space-between;">
+            <h3>Uber</h3>
+            <h3>12/2018 - 06/2020</h3>
+          </div>
+
+          <h4>Data Analyst - Content (US&C) & MFI (Manual Fraud Investigation)</h4>
+          <ul>
+            <li><b>Analytical Dashboard Development:</b> Utilized SQL, Tableau, and VBA to develop analytical dashboards. These dashboards provided insights for optimizing KB pages, enhancing team metrics, and improving customer satisfaction.</li>
+            <li><b>Data Validation and Anomaly Detection:</b> Developed and implemented a comprehensive data validation and anomaly detection system using Python and SQL. This system led to a 15% reduction in data discrepancies and significantly improved data quality and reliability.</li>
+            <li><b>CSAT Improvement Project:</b> Initiated and led a CSAT improvement project, achieving a 60-basis point increase. Followed this with an automated CSAT analysis framework using SQL and Python, resulting in a further 93-basis point uplift and maintaining a CSAT above 90%.</li>
+            <li><b>Data Warehouse Integration:</b> Collaborated with cross-functional teams to integrate new data sources into the existing data warehouse. This integration expanded analytical capabilities and provided more comprehensive insights for strategic planning.</li>
+            <li><b>Recognized by management and external stakeholders</b> for leading and delivering top-notch projects that helped improve metrics of the LOB via insights generated by analyzing data based on different parameters and trends in customer behavior.</li>
+          </ul>
+
+          <div style="display: flex; justify-content: space-between;">
+            <h3>Oasis School of Excellence</h3>
+            <h3>05/2015 - 11/2018</h3>
+          </div>
+          <h4>Data Analyst</h4>
+          <ul>
+            <li><b>Dynamic Timetable Generation System:</b> Developed a Python-based dynamic timetable generation system. This system reduced scheduling conflicts by 40%, significantly improving the overall efficiency of class scheduling. It also minimized manual scheduling efforts by 60 hours per semester and adapted to faculty availability and curriculum needs, streamlining class schedules across the board.</li>
+            <li><b>Leave Management and Salary Calculation System:</b> Implemented a dual-function leave management and salary calculation system using Python and SQL. This system automated previously manual data entry processes, optimized payroll processing, and cut down administrative errors and processing time by 50%.</li>
+            <li><b>Python, C & C++ Programming Workshops:</b> Conducted programming workshops for students, introducing over 450 students to programming fundamentals and data science concepts. This led to developing a coding curriculum adopted school-wide, increasing student engagement in STEM subjects and contributing to the school's reputation for technology education.</li>
+            <li><b>Digital Transformation Project:</b> Led the digital transformation project, introducing cloud-based solutions for document management and collaboration (Google Workspace). This initiative enhanced staff productivity by 35% and facilitated remote learning capabilities, demonstrating leadership in leveraging technology for educational advancement.</li>
+          </ul>
+          <hr class="divider">
+          <div class="section">
+            <h2>EDUCATION</h2>
+              <div style="display: flex; justify-content: space-between;">
+                <h3><b>Master of Science: Data Engineering</b> - University of North Texas (GPA: 3.84)</h3>
+                <h3>08/2022 - 05/2024</h3>
+              </div>
+            <ul>
+              <li><b>Coursework:</b> Distributed & Parallel Database Systems, Feature Engineering, Introduction to Big Data and Data Science, Information Retrieval, Natural language processing, Cyber Security, Machine Learning, Empirical Analysis, Fundamentals of Database Systems</li>
+              <li><b>Coursework:</b>
+                <ul>
+                  <li><b>Movie recommendation system</b>- Developed a comprehensive recommendation system utilizing collaborative, content-based, and popularity-based filtering techniques. Analyzed preferences of 5,000+ users against a database of 20,000+ movies, achieving an 85% accuracy in personalized recommendations. This project demonstrated my proficiency in algorithm development, user-centric data processing, and applying machine learning principles to real-world applications.</li>
+                  <li><b>Database for Hospital management system</b>- Engineered and deployed a relational database for hospital operations, successfully managing data for over 1,000 patients, 500 staff members, and multiple departments. Implemented advanced SQL querying and data modeling techniques, resulting in efficient data retrieval and minimal redundancy. Prioritized robust data storage solutions, utilizing normalization to ensure data integrity and accessibility for effective hospital management. </li>
+                  <li><b>KF Strategy in Parallel SVM for Big Data</b> - Implemented a Kernel Fusion (KF) strategy in Parallel SVMs for big data analysis, focusing on credit card fraud detection. Utilized the Whale Optimization Algorithm (WOA) within a MapReduce framework, achieving a 4.3% increase in model accuracy (from 0.9734 to 0.9777) compared to traditional SVM methods. This project demonstrated my ability to enhance SVM efficiency in large dataset environments, significantly reducing data redundancy and improving scalability. </li>
+
+                </ul>
+            </ul>
+        
+            <div style="display: flex; justify-content: space-between;">
+              <h3>B.E. (OU): Computer Science engineering - Osmania University</h3>
+              <h3>09/2014 - 06/2018</h3>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+  <script src="script.js" defer></script> 
+</body>
+</html>
+
+
+
+
+
